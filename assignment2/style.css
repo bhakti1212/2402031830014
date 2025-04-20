@@ -1,0 +1,510 @@
+body,
+ html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    background: url('astronaut_space.png') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+  }
+  
+  .top-bar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .search-button {
+    background-color: #5fa8f2;
+    color: black;
+    font-weight: bold;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+  }
+  
+  .circle {
+    width: 30px;
+    height: 30px;
+    background-color: #5fa8f2;
+    border-radius: 50%;
+  }
+  
+  .get-start-button {
+    background-color: #5fa8f2;
+    color: black;
+    font-weight: bold;
+    padding: 12px 50px;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 30px;
+  }
+  
+  .main-image {
+    display: none; /* Hide since the background already shows the astronaut */
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', serif;
+  }
+  
+  .astronomy-section {
+    background-color: #c2e4ff; /* Light blue background */
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .astronomy-container {
+    display: flex;
+    max-width: 1000px;
+    background-color: #c2e4ff;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .image-box img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 20px;
+  }
+  
+  .text-box {
+    flex: 1;
+    max-width: 500px;
+  }
+  
+  .text-box h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .text-box p {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+  }
+  
+  .learn-button {
+    margin-top: 20px;
+    padding: 12px 30px;
+    background-color: #1d73e8;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .learn-button:hover {
+    background-color: #155ab5;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #ffffff;
+  }
+  
+  .telescope-section {
+    background-color: #c2e4ff;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .telescope-container {
+    display: flex;
+    max-width: 900px;
+    background-color: #f6df57;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+  }
+  
+  .image-side {
+    background-color: #c2c2f2;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image-side img {
+    max-width: 250px;
+    height: auto;
+  }
+  
+  .text-side {
+    flex: 1;
+    padding: 30px;
+  }
+  
+  .text-side h1 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .text-side p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .next-button {
+    padding: 10px 30px;
+    font-size: 16px;
+    background-color: #a1656b;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .next-button:hover {
+    background-color: #814a51;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, #e2e0f3, #dcdaf5);
+  }
+  
+  .galaxy-section {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+  
+  .galaxy-container {
+    max-width: 900px;
+    background-color: #e8e3f4;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .galaxy-image-top img,
+  .galaxy-image-bottom img {
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  
+  .galaxy-content {
+    padding: 20px 30px;
+    color: #000;
+  }
+  
+  .galaxy-content h1 {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .galaxy-content .intro {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .galaxy-content .details {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .next-button {
+    display: block;
+    margin: 20px auto 0 auto;
+    padding: 10px 40px;
+    font-size: 16px;
+    background-color: #2e3242;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .next-button:hover {
+    background-color: #1c1f2d;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .planets-section {
+    background-image: url('IMAGES3.jpg'); /* Replace with your space image */
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 50, 0.6); /* Dark space tint */
+    padding: 40px 20px;
+    border-radius: 12px;
+    color: white;
+    max-width: 600px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 25px;
+  }
+  
+  .planet-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 30px 0;
+  }
+  
+  .planet-list li {
+    font-size: 20px;
+    margin: 5px 0;
+    letter-spacing: 1px;
+  }
+  
+  .next-btn {
+    background-color: gold;
+    color: black;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .next-btn:hover {
+    background-color: orange;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0d0d0d;
+  }
+  
+  .planet-distance-section {
+    background-image: url('thumb-1920-593037.jpg'); /* Update with actual star background image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+  }
+  
+  .content-box {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 800px;
+  }
+  
+  .planet-row {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 25px;
+  }
+  
+  .planet-text {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .next-btn {
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .next-btn:hover {
+    background-color: #ff9500;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000;
+  }
+  
+  .moon-section {
+    background-image: url('image-asset.jpeg'); /* Replace with actual starry black background */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+  }
+  
+  .moon-container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 800px;
+  }
+  
+  .moon-container h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+  }
+  
+  .moon-phases {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 25px;
+  }
+  
+  .moon-text {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .next-btn {
+    background-color: lightgray;
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .next-btn:hover {
+    background-color: #c7c7c7;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000;
+  }
+  
+  .footer-section {
+    background-image: url('wallpapersden.com_astronomical-fortnite_1920x1080.jpg'); /* Replace with your starry image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    min-height: 100vh;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content-container {
+    text-align: center;
+    max-width: 1000px;
+    width: 100%;
+  }
+  
+  .text-columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    padding: 0 20px;
+  }
+  
+  .about, .contact {
+    flex: 1;
+    min-width: 280px;
+    margin: 10px;
+  }
+  
+  .about h2, .contact h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .about p, .contact p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .astronaut {
+    max-width: 300px;
+    margin: 30px auto;
+    display: block;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+  }
+  
+  .footer-btn {
+    background-color: #d9cfa8;
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .footer-btn:hover {
+    background-color: #c4b58b;
+  }
+          
+    
